@@ -558,12 +558,12 @@ textarea.form-control, textarea.form-control:focus {
   background-repeat: no-repeat;
 }
 
-.section-without-bg {
+/*.section-without-bg {
   background: transparent;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-}
+}*/
 
 .section-paddings-0 {
   padding: 0;
