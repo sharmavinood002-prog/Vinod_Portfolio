@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  
+<!-- Mirrored from lmpixels.com/demo/unique/unique-vcard/index-light.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Feb 2026 05:59:21 GMT -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Unique - Responsive vCard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Unique - Responsive vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Unique, portfolio" />
+    <meta name="author" content="lmtheme" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/animate.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/transition-animations.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/main-red.css" type="text/css">
+
+    <!-- This styles needs for demo -->
+    <link rel="stylesheet" href="preview/lmpixels-demo-panel.css" type="text/css">
+    <!-- /This styles needs for demo -->
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','../../../../www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-96534204-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+
+    <script src="assets/js/jquery-2.1.3.min.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
+  </head>
+
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide header-color-light">
+        <div class="my-photo tilt-effect">
+          <img src="assets/images/photo.png" alt="image">
+        </div>
+
+        <div class="site-title-block">
+          <h1 class="site-title">Vinod Kumar</h1>
+        </div>
+
+        <!-- Navigation -->
+        <div class="site-nav">
+          <!-- Main menu -->
+          <ul id="nav" class="site-main-menu">
+            <!-- <li>
+              <a class="pt-trigger" href="#home" data-animation="21"><i class="menu-icon pe-7s-icon pe-7s-home"></i>Home</a> href value = data-id without # of .pt-page. 
+            </li> -->
+            <li>
+              <a class="pt-trigger" href="#about_me" data-animation="17"><i class="menu-icon pe-7s-icon pe-7s-user"></i>About me</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#resume" data-animation="18"><i class="menu-icon pe-7s-icon pe-7s-id"></i>Resume</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#portfolio" data-animation="19"><i class="menu-icon pe-7s-icon pe-7s-portfolio"></i>Portfolio</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#contact" data-animation="20"><i class="menu-icon pe-7s-icon pe-7s-mail"></i>Contact</a>
+            </li>
+          </ul>
+          <!-- /Main menu -->
+        </div>
+        <!-- Navigation -->
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title">Vinod Kumar</div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper" style="background-image: url(assets/images/bg.png);">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page pt-page-1 section-without-bg section-paddings-0 table" data-id="home">
+              <div class="section-inner">
+                <div class="home-page-block">
+                  <h2>Vinod Kumar</h2>
+                  <div class="owl-carousel text-rotation">                                    
+                    <div class="item">
+                      <p class="home-page-description">Website Designer</p>
+                    </div>
+                    <div class="item">
+                      <p class="home-page-description">Frontend-developer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- About Me Subpage -->
+            <section class="pt-page pt-page-2" data-id="about_me">
+              <div class="border-block-top-110"></div>
+              <div class="section-inner">
+                <div class="section-title-block">
+                  <div class="section-title-wrapper clearfix">
+                    <h2 class="section-title">About Me</h2>
+                    <h5 class="section-description">Website Designer</h5>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6 col-md-6 col-lg-4 subpage-block">
+                    <div class="my-photo-block tilt-effect">
+                      <img src="assets/images/photo.png" alt="">
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 col-lg-4">
+                    <h3>Vinod Kumar</h3>
+                    <p>Creative and detail-oriented UI/UX & Web Designer with 6.7+ years of experience in designing responsive websites, web applications, and mobile app interfaces. Strong expertise in HTML5, CSS3, Bootstrap (3/4/5), Figma, Photoshop, and CorelDRAW. Experienced in creating wireframes, user flows, corporate branding materials, and user-centric design solutions. Passionate about delivering modern, clean, and performance-driven interfaces.</p>
+                    
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 col-lg-4 subpage-block">
+                    <ul class="info-list">
+                      <li><span class="title">Age</span><span class="value">32</span></li>
+                      <li><span class="title">Residence</span><span class="value">INDIA</span></li>
+                      <li><span class="title">Address</span><span class="value">Faridabad, Haryana – 121013</span></li>
+                      <li><span class="title">e-mail</span><span class="value"><a href="mailto:sharmavinod.sharma59@gmail.com">sharmavinod.sharma59@gmail.com</a></span></li>
+                      <li><span class="title">Phone</span><span class="value">+91 9716733928 / +91 9555520320</span></li>
+                      <li><span class="title">Freelance</span><span class="value available">Available</span></li>
+                    </ul>
+
+                    <ul class="social-links">
+                      <li><a class="tip social-button" href="#" title="Behance"><i class="fa fa-behance"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Services block -->
+                <div class="block-title">
+                  <h3>Services</h3>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6 col-md-3 subpage-block">
+                    <div class="service-block"> 
+                      <div class="service-info">
+                        <img src="assets/images/service/web_design_icon.png" alt="Responsive Design">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3 subpage-block">
+                    <div class="service-block"> 
+                      <div class="service-info">
+                        <img src="assets/images/service/photography_icon.png" alt="Photography">
+                        <h4>Photography</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3 subpage-block">
+                    <div class="service-block"> 
+                      <div class="service-info">
+                        <img src="assets/images/service/creativity_icon.png" alt="Creativity">
+                        <h4>Creativity</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3 subpage-block">
+                    <div class="service-block"> 
+                      <div class="service-info">
+                        <img src="assets/images/service/advetising_icon.png" alt="Advetising">
+                        <h4>Advertising</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Services block -->
+
+
+              </div>
+            </section>
+            <!-- End of About Me Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page pt-page-3" data-id="resume">
+              <div class="border-block-top-110"></div>
+              <div class="section-inner">
+                <div class="section-title-block">
+                  <div class="section-title-wrapper">
+                    <h2 class="section-title">Resume</h2>
+                    <h5 class="section-description">6+ Years of Experience</h5>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6 col-md-8 subpage-block">
+                    <div class="block-title">
+                      <h3>Education</h3>
+                    </div>
+                    <div class="timeline">
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">2010</h5>
+                        <h4 class="event-name">Specialization Course</h4>
+                        <span class="event-description">University of Studies</span>
+                        <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                      </div>
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">2009</h5>
+                        <h4 class="event-name">Specialization Course</h4>
+                        <span class="event-description">University of Studies</span>
+                        <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                      </div>
+                    </div>
+                  
+                    <div class="block-title">
+                      <h3>Experience</h3>
+                    </div>
+                    <div class="timeline">
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">Jan 2022 - Current</h5>
+                        <h4 class="event-name">Website Designer</h4>
+                        <span class="event-description">EXPEDIEN eSolutions – Noida</span>
+                        <p>1. Designed responsive web and mobile application layouts.<br/>
+                          2. Created modern UI for government and enterprise-level portals.<br/>
+                          3. Redesigned corporate websites to improve usability and performance.<br/>
+                          4.Designed corporate newsletters and branding materials.<br/>
+                          5. Collaborated with developers to implement pixel-perfect UI.<br/>
+                          6. Executed monthly website updates and content changes.
+                        </p>
+                      </div>
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">Sept 2021 – Dec 2021</h5>
+                        <h4 class="event-name">Web & Graphic Designer</h4>
+                        <span class="event-description">AKS Websoft Consulting Pvt. Ltd. – Noida</span>
+                        <p>1. Created wireframes, user flows, process flows, and sitemap structures.<br/>
+                          2. Designed responsive web and mobile layouts.<br/>
+                          3. Developed logos, social media creatives, banners, and newsletters.<br/>
+                          4. Corporate website redesign projects.<br/>
+                          5. Executed monthly website updates and content changes.</p>
+                      </div>
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">Nov 2019 – Mar 2020</h5>
+                        <h4 class="event-name">Website Designer</h4>
+                        <span class="event-description">Credence Digital Marketing – Dwarka</span>
+                        <p>1. Designed website layouts and UI components.<br/>
+                          2. Created wireframes and user experience flows.<br/>
+                          3. Developed logos, social media creatives, banners, and newsletters.<br/>
+                          4. Corporate website redesign projects.<br/>
+                          5. Executed monthly website updates and content changes.</p>
+                      </div>
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">Feb 2016 – Jan 2018</h5>
+                        <h4 class="event-name">Web & Graphic Designer</h4>
+                        <span class="event-description">Medicinea Healthcare Pvt. Ltd. – Delhi</span>
+                        <p>1. Designed and maintained company websites using HTML & CSS.<br/>
+                          2. Managed website hosting through HostGator.<br/>
+                          3. Designed corporate identity materials and product booklets.<br/>
+                          4. Created business cards, brochures, flyers, and menus.<br/>
+                          5. Executed monthly website updates and content changes.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-4 subpage-block">
+                    <div class="block-title">
+                      <h3>Design Skills</h3>
+                    </div>
+                    <div class="skills-info">
+                      <h4>Web Design</h4>                               
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-1"></div>
+                      </div>
+
+                      <h4>Graphic Design</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-7"></div>
+                      </div>
+
+                    </div>
+
+                    <div class="block-title">
+                      <h3>Coding Skills</h3>
+                    </div>
+                    <div class="skills-info">
+                      <h4>HML5</h4>                               
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-4"></div>
+                      </div>
+
+                      <h4>CSS3</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-5"></div>
+                      </div>
+
+                      <h4>Bootstrap</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-5"></div>
+                      </div>
+
+                      <h4>Photoshop</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-8"></div>
+                      </div>
+
+                      <h4>CorelDRAW</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-7"></div>
+                      </div>
+
+                      <h4>Figma</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-7"></div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-12">
+                    <div class="download-cv-block">
+                      <a class="button" target="_blank" href="#">Download CV</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Resume Subpage -->
+
+
+            <!-- Portfolio Subpage -->
+            <section class="pt-page pt-page-4" data-id="portfolio">
+              <div class="border-block-top-110"></div>
+              <div class="section-inner">
+                <div class="section-title-block">
+                  <div class="section-title-wrapper">
+                    <h2 class="section-title">Portfolio</h2>
+                    <h5 class="section-description">My Best Works</h5>
+                  </div>
+                </div>
+
+                <!-- Portfolio Content -->
+                <div class="portfolio-content">
+                              
+                  <!-- Portfolio filter -->
+                  <ul id="portfolio_filters" class="portfolio-filters">
+                    <li class="active">
+                      <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                    </li>
+                    <li>
+                      <a class="filter btn btn-sm btn-link" data-group="media">Website</a>
+                    </li>
+                    <li>
+                      <a class="filter btn btn-sm btn-link" data-group="illustration">Mobile App</a>
+                    </li>
+                    <!-- <li>
+                      <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
+                    </li> -->
+                  </ul>
+                  <!-- End of Portfolio filter -->
+
+                  <!-- Portfolio Grid -->
+                  <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                    <!-- Portfolio Item 1 -->
+                     <figure class="item" data-groups='["all","media"]'>
+                      <a href="https://cbcindia.gov.in/" title="Central Bureau of Communication">
+                        <img src="assets/images/portfolio/p12.jpg" alt="">
+                        <div>
+                          <h5 class="name">Central Bureau of Communication</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    
+                    <!-- /Portfolio Item 1 -->
+
+                    <!-- Portfolio Item 2 -->
+                    <figure class="item" data-groups='["all", "media"]'>
+                      <a href="https://ugcnet.nta.ac.in/" title="Ugc net">
+                        <img src="assets/images/portfolio/p2.jpg" alt="">
+                        <div>
+                          <h5 class="name">Ugc net</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 2 -->
+
+                    <!-- Portfolio Item 3 -->
+                    <figure class="item" data-groups='["all","media"]'>
+                      <a href="https://erp.ntaonline.in/" title="NTA Backoffice">
+                        <img src="assets/images/portfolio/p3.jpg" alt="">
+                        <div>
+                          <h5 class="name">NTA Backoffice</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 3 -->
+
+                    <!-- Portfolio Item 4 -->
+                    <figure class="item" data-groups='["all", "media"]'>
+                      <a href="https://mlsuportal.sumsraj.com/" title="Mohanlal Sukhadia University">
+                        <img src="assets/images/portfolio/p4.jpg" alt="">
+                        <div>
+                          <h5 class="name">Mohanlal Sukhadia University</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 4 -->
+
+                    <!-- Portfolio Item 5 -->
+                    <figure class="item" data-groups='["all", "media"]'>
+                      <a href="https://rtu.sumsraj.com/" title="Rajasthan Technical University">
+                        <img src="assets/images/portfolio/p5.jpg" alt="Rajasthan Technical University">
+                        <div>
+                          <h5 class="name">Rajasthan Technical University</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 5 -->
+
+                    <!-- Portfolio Item 6 -->
+                    <figure class="item" data-groups='["all", "media"]'>
+                      <a href="https://universityerp.com/" title="University ERP">
+                        <img src="assets/images/portfolio/p6.jpg" alt="">
+                        <div>
+                          <h5 class="name">University ERP</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 6 -->
+
+                    <!-- Portfolio Item 7 -->
+                    <figure class="item" data-groups='["all", "media"]'>
+                      <a href="https://www.crsuiums.com/(S(xs5yl14j1kcnv0b1asyrpp0e))/main.aspx" title="Nulla Facilisi">
+                        <img src="assets/images/portfolio/p7.jpg" alt="">
+                        <div>
+                          <h5 class="name">Chaudhary Ranbir Singh University</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 7 -->
+
+                    <!-- Portfolio Item 8 -->
+                    <figure class="item" data-groups='["all",  "media"]'>
+                      <a href="https://hpushimla.in/" title="Himachal Pradesh University">
+                        <img src="assets/images/portfolio/p8.jpg" alt="Himachal Pradesh University">
+                        <div>
+                          <h5 class="name">Himachal Pradesh University</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 8 -->
+
+                    <!-- Portfolio Item 9 -->
+                    <figure class="item" data-groups='["all","media"]'>
+                      <a href="https://jnvuiums.in/" title="Jai Narain Vyas University">
+                        <img src="assets/images/portfolio/p9.jpg" alt="Jai Narain Vyas University">
+                        <div>
+                          <h5 class="name">Jai Narain Vyas University</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 9 -->
+
+                    <!-- Portfolio Item 10 -->
+                    <figure class="item" data-groups='["all", "media"]'>
+                      <a href="http://iihms.aiia.gov.in/" title="All India Institute of Ayurveda">
+                        <img src="assets/images/portfolio/p10.jpg" alt="All India Institute of Ayurveda">
+                        <div>
+                          <h5 class="name">All India Institute of Ayurveda</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 10 -->
+
+                    <!-- Portfolio Item 11 -->
+                     <figure class="item" data-groups='["all", "media"]'>
+                      <a href="https://expediensolutions.com/" title="Expedien eSolutions">
+                        <img src="assets/images/portfolio/p1.jpg" alt="Expedien eSolutions">
+                        <div>
+                          <h5 class="name">Expedien eSolutions</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    
+                    <!-- /Portfolio Item 11 -->
+
+                    <!-- Portfolio Item 12 -->
+                    <figure class="item" data-groups='["all","media"]'>
+                      <a href="https://mbmiums.in/(S(qjavrlxwptvsa0gusqsksx3a))/main.aspx" title="M.B.M. University">
+                        <img src="assets/images/portfolio/p11.png" alt="M.B.M. University">
+                        <div>
+                          <h5 class="name">M.B.M. University</h5>
+                          <small>Website</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 12 -->
+                  </div>
+                  <!-- /Portfolio Grid -->
+
+                </div>
+                <!-- /Portfolio Content -->
+              </div>
+            </section>
+            <!-- /Portfolio Subpage -->
+
+            <!-- Contact Subpage -->
+            <section class="pt-page pt-page-5" data-id="contact">
+              <div class="border-block-top-110"></div>
+              <div class="section-inner">
+                <div class="section-title-block">
+                  <div class="section-title-wrapper">
+                    <h2 class="section-title">Contact</h2>
+                    <h5 class="section-description">Get in Touch</h5>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 subpage-block">
+                    <div class="block-title">
+                      <h3>Get in Touch</h3>
+                    </div>
+                    <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus.</p>
+                    <div class="contact-info-block">
+                      <div class="ci-icon">
+                        <i class="pe-7s-icon pe-7s-map-marker"></i>
+                      </div>
+                      <div class="ci-text">
+                        <h5>Faridabad, Haryana – 121013</h5>
+                      </div>
+                    </div>
+                    <div class="contact-info-block">
+                      <div class="ci-icon">
+                        <i class="pe-7s-icon pe-7s-mail"></i>
+                      </div>
+                      <div class="ci-text">
+                        <h5>sharmavinod.sharma59@gmail.com</h5>
+                      </div>
+                    </div>
+                    <div class="contact-info-block">
+                      <div class="ci-icon">
+                        <i class="pe-7s-icon pe-7s-call"></i>
+                      </div>
+                      <div class="ci-text">
+                        <h5>+91 9716733928 / +91 9555520320</h5>
+                      </div>
+                    </div>
+                    <div class="contact-info-block">
+                      <div class="ci-icon">
+                        <i class="pe-7s-icon pe-7s-check"></i>
+                      </div>
+                      <div class="ci-text">
+                        <h5>Freelance Available</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 subpage-block" style="display: none;">
+                    <div class="block-title">
+                      <h3>Contact Form</h3>
+                    </div>
+                    <form id="contact-form" method="post" action="https://lmpixels.com/demo/unique/unique-vcard/contact_form/contact_form.php">
+
+                      <div class="messages"></div>
+
+                      <div class="controls">
+                        <div class="form-group">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon pe-7s-user"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon pe-7s-mail"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for Me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon pe-7s-comment"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <input type="submit" class="button btn-send" value="Send message">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/pages-switcher.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/validator.js"></script>
+    <script src="assets/js/jquery.shuffle.min.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/js/tilt.jquery.min.js"></script>
+    <script src="assets/js/jquery.hoverdir.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Demo Color changer Script -->
+    <script src="assets/preview/lmpixels-demo-panel.js"></script>
+    <!-- /Demo Color changer Script -->
+  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d2cbc0add7ea470',t:'MTc3MTkxMjc0MQ=='};var a=document.createElement('script');a.src='../../../cdn-cgi/challenge-platform/h/g/scripts/jsd/60138c04e6b2/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"94b99c0576dc45bf9d669fb5e9256829","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from lmpixels.com/demo/unique/unique-vcard/index-light.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Feb 2026 06:00:47 GMT -->
+</html>
