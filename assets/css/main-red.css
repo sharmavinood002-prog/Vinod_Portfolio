@@ -559,12 +559,11 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .section-without-bg {
-  background: transparent!important;
+  background: transparent;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
-.pt-page-1 {display: none;}
 
 .section-paddings-0 {
   padding: 0;
